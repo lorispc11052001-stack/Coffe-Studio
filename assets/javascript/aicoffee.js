@@ -21,4 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   revealEls.forEach((el) => observer.observe(el));
+  const messageField = document.querySelector("#message");
+  if (messageField) {
+    const params = new URLSearchParams(window.location.search);
+    const requestedMessage = params.get("messaggio");
+    if (requestedMessage && !messageField.value.trim()) {
+      messageField.value = requestedMessage;
+    }
+  }
 });
+
