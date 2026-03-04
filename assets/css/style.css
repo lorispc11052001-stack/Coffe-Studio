@@ -363,6 +363,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+  text-align: center;
 }
 
 .copy {
@@ -380,6 +381,13 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 0.4rem;
+}
+
+.container-footer-cta{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 15px;
 }
 
 .reveal {
