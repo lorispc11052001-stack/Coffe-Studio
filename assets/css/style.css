@@ -149,6 +149,7 @@ h2 {
 .btn-outline {
   background: transparent;
   color: var(--text);
+  margin-top: 15px;
 }
 
 .btn-ghost {
