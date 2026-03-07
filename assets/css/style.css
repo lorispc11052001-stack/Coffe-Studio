@@ -140,6 +140,8 @@ h2 {
   transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
 }
 
+.scopri-menu-btn{margin-top: 15px;}
+
 .btn:hover {
   filter: brightness(1.05);
   transform: translateY(-2px);
